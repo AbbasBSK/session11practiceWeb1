@@ -1,25 +1,20 @@
 @font-face {
     font-family: Yekan;
-    src: url('/assets/fontYekan/yekan-font/Yekan.eot');
-    src: url('/assets/fontYekan/yekan-font/yekan-regular.eot') format('Yekan-opentype'),
-         url('/assets/fontYekan/yekan-font/Yekan.woff') format('woff'),
-         url('/assets/fontYekan/yekan-font/Yekan.ttf') format('truetype');
-         
+    src: url('/assets/fontYekan/yekan-font/Yekan.woff') format('woff'),
   }
-@font-face {
-    font-family: Tanha;
-    src: url('/assets/fontYekan/tanha-font-v0.9/Tanha.eot');
-    src: url('/assets/fontYekan/tanha-font-v0.9/Tanha.eot') format('Tanha-opentype'),
-         url('/assets/fontYekan/tanha-font-v0.9/Tanha.woff') format('woff'),
-         url('/assets/fontYekan/tanha-font-v0.9/Tanha.ttf') format('truetype');
+
+  @font-face {
+    font-family: Shabnam;
+    src: url('/assets/fontYekan/shabnam-font-v2.4.0/Shabnam-Bold.woff') format('woff'),
   }
+
 
 
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Yekan;
+    font-family: Shabnam;
 }
 
 section {
